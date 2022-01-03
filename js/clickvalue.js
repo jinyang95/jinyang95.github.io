@@ -1,7 +1,7 @@
 var a_idx = 0;
 jQuery(document).ready(function($) {
   $("body").click(function(e) {
-    var a = new Array( "Wen yang Group","杨文老师", "张书辉","杨锦","张超","李刚");
+    var a = new Array( "Wen yang's Group","杨文老师");
     var $i = $("<span/>").text(a[a_idx]);
 
     //过滤a标签
